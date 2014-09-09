@@ -19,7 +19,7 @@
 }
 
 .h-list {
-	display: inline;
+	display: inline-block;
 	list-style-type: none;
 }
 
@@ -45,3 +45,103 @@
 	font-size: .75em;
 	padding: .5em .5em;
 }
+
+/*EX 10 - NAVIGATION*/
+
+.nav-bar {
+	background-color: lightcoral;
+	border-radius: .5em;
+	width: 85%;
+}
+
+.nav-bar * {
+	display: inline-block;
+}
+
+.nav-bar a {
+	background-color: lightcoral;
+	text-decoration: none;
+	color: white;
+	padding: .5em 2em;
+	border-radius: .25em;
+}
+
+.nav-bar a:hover{
+	background-color: white;
+	color: lightcoral;
+}
+
+
+/*EX 11 - PAGINATION*/
+
+
+.pagination {
+
+}
+
+.pagination *{
+	display: inline-block;
+	text-decoration: none;
+	list-style-type: none;
+	color: lightcoral;
+	padding: 0em .25em;
+}
+
+.pagination a {
+	border-bottom: 2px solid lightcoral;
+}
+
+.pagination .active-page {
+	color: darkgray;
+	border-bottom: 2px solid darkgray;
+}
+
+
+/*EX 12 - COMMENT STREAM*/
+
+
+.comment-stream{
+	overflow: hidden;
+	clear: both;
+	margin: 9px;
+}
+
+.comment-img {
+	display: inline-block;
+	float: left;
+	/*margin: 9px;*/
+}
+
+.comment-words {
+	overflow: hidden;
+}
+
+
+/*EX 13 - TABS*/
+
+.tabs-list * {
+	list-style: none;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.tab {
+	padding: 2px 4px;
+	border: 1px solid black;
+	border-radius: 6px 6px 0px 0px;
+	position: relative;
+	top: 1px;
+}
+
+.content {
+	border: 1px solid black;
+	border-radius: 6px;
+	padding: 15px;
+}
+
+.tab-active {
+	border-bottom: 1px white solid;
+}
+
+
+
