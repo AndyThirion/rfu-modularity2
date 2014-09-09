@@ -1,0 +1,47 @@
+.h-spaced {
+	/*display: inline-block;*/
+	text-align: center;
+	/*vertical-align: top;*/
+	/*margin: 0 20px 0 20px;*/
+}
+
+.h-spaced > * {
+	display: inline-block;
+	vertical-align: top;
+	/*text-align: center;*/
+	margin: 0 20px 0 20px;
+}
+
+.v-spaced{
+	/*display: inline-block;*/
+	vertical-align: middle;
+	padding: 100px 0px 100px 0px;
+}
+
+.h-list {
+	display: inline;
+	list-style-type: none;
+}
+
+.h-list > * {
+	float: left;
+}
+
+.button {
+	display: inline-block;
+	background-color: lightcoral;
+	text-decoration: none;
+	color: white;
+	padding: .5em 2em;
+	border-radius: .25em;
+	border-style: none;
+}
+
+.b-big {
+	font-size: 2em;
+}
+
+.b-small {
+	font-size: .75em;
+	padding: .5em .5em;
+}
